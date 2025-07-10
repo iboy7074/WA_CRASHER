@@ -95,15 +95,15 @@ def MSG():
 	if YTC == 'Y' or YTC == 'y':
 		print(G)
 		print("Thank You For Joining Us...\n")
-		time.sleep(4)
+		time.sleep(1)
 		print("Initializing tool...")
-		time.sleep(4)		
+		time.sleep(1)		
 		print(W + "\n\n")
 		main()
 	elif YTC == 'N' or YTC == 'n':
 		print("")
 		os.system("xdg-open https://hackerxphantom.blogspot.com/p/join-whatsapp-group.html")
-		time.sleep(8)
+		time.sleep(2)
 		os.system("xdg-open https://hackerxphantom.blogspot.com/p/join-whatsapp-group.html")
 		time.sleep(3)
 		print(W + "\n\n")
